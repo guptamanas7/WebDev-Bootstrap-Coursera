@@ -9,7 +9,7 @@ app.post("/", function (req, res) {
   var n1 = Number(req.body.n1);
   var n2 = Number(req.body.n2);
   var result = n1 + n2;
-  res.send("The Result of your calculation is: " + result);
+  res.send("The Result of your calculation is: ");
 });
 
 app.listen(8000, function () {
