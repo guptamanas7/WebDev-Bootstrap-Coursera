@@ -1,2 +1,2 @@
-# WebDev-Specialization-Course-1
+# WebDev-Specialization-Course
 New Start to this specialization
