@@ -14,22 +14,23 @@
     margin-left: -10px;
 }
 .footer{
-    background-color: #d1c4e9;
+    background-color: #00333c;
     margin: 0px auto;
     padding: 20px 0px 20px 0;
+    color: #fff;
 }
 
 .jumbotron{
     padding: 70px 30px;
     margin: 0 auto;
-    background: #9575cd;
+    background: #368f9e;
     color: floralwhite;
 }
 
 .address{
     font-size: 80%;
     margin: 0;
-    color: #0f0f0f;
+    color: #ffffff;
 }
 
 body{
@@ -38,9 +39,85 @@ body{
 }
 
 .navbar-dark{
-    background-color: #512da8;
+    background-color: #00333c;
 }
 
 .btn{
     white-space:break-spaces;
+}
+
+.card-body{
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.card-header:hover{
+    background-color: rgb(137, 195, 44);
+    color: #fff;
+}
+
+.navbar-text:hover{
+    cursor:pointer;
+}
+
+.bg-primary{
+    background-color: #00333c !important;
+    border-bottom: 3px solid #368f9e;
+}
+
+.carousel{
+    background: #00333c;
+
+}
+
+.carousel-item  {
+    height: 300px;
+}
+
+.carousel-item img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+
+.carousel-inner{
+    position: absolute;
+    background: #00333c;
+}
+
+.caption{
+    position: relative;
+    z-index: 1;
+    padding-left: 310px;
+    padding-top: 20px;
+    color: #fff;
+    line-height: 1.2;
+    font-size: 17px;
+    
+}
+
+.carousel-indicators{
+    position: relative !important;
+    right: 0;
+    top: 270px !important;
+    left: 0;
+    z-index: 15;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+
+.description{
+    margin-right: 50px;
+    margin-top: 15px;
 }
