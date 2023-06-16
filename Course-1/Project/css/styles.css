@@ -42,7 +42,7 @@ body{
     background-color: #00333c;
 }
 
-.btn{
+.reservebtn{
     white-space:break-spaces;
 }
 
@@ -69,10 +69,11 @@ body{
 
 .carousel{
     background: #00333c;
+    max-height: 300px;
 
 }
 
-.carousel-item  {
+.carousel-inner  {
     height: 300px;
 }
 
@@ -84,7 +85,7 @@ body{
 }
 
 .carousel-inner{
-    position: absolute;
+    position: relative;
     background: #00333c;
 }
 
@@ -102,7 +103,7 @@ body{
 .carousel-indicators{
     position: relative !important;
     right: 0;
-    top: 270px !important;
+    
     left: 0;
     z-index: 15;
     display: -webkit-box;
@@ -120,4 +121,36 @@ body{
 .description{
     margin-right: 50px;
     margin-top: 15px;
+}
+
+.btn-secomdary{
+    position: relative;
+    top:0;
+    left:0;
+    
+}
+
+#carouselButton{
+    position: absolute;
+    right:0;
+    bottom:0px;
+}
+
+.modal-header{
+    background-color: #00333c;
+    color: #fff;
+}
+
+.modal-body{
+    border-top: 2px solid #fff;
+    background-color: #c0f6ff;
+    color:#000;
+}
+
+.close{
+    color: #c0c0c0;
+}
+
+.close:hover{
+    color: #fff;
 }
